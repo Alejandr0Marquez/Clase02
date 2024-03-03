@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAlarma1"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/btnA1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSubtitulo1"
+        android:layout_width="289dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="100dp"
+        android:text="Tiempo Real Transcurrido (TRT)"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txTitulo"
+        android:layout_width="289dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:text="Ejemplos de Alarmas"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAlarma2"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/btnA2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlarma1" />
+
+    <Button
+        android:id="@+id/btnAlarma3"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="132dp"
+        android:text="@string/btnA3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlarma2" />
+
+    <Button
+        android:id="@+id/btnAlarma4"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/btnA4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlarma3" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/btCan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlarma4" />
+
+    <TextView
+        android:id="@+id/txtSubtitulo2"
+        android:layout_width="289dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="384dp"
+        android:text="Reloj en Tiempo Real (RTR)"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

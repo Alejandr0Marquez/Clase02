@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Clase02</string>
+    <string name="btnA1">Repetitiva - TRT (15 min)</string>
+    <string name="btnA2">No Repetitiva - TRT (1 min)</string>
+    <string name="btnA3">Repetir una vez al dia</string>
+    <string name="btnA4">Repetir cada cierto tiempo</string>
+    <string name="btCan">Cancelar</string>
+</resources>
